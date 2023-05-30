@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --color-cinza:  #303030;
+    --color-amarelo:  #C07212;   
+    --color-branco-1:  #f9f9f9;   
+    --color-branco-2:  #f5f5f5;   
+}
+
+#Header{
+    background-color: var(--color-cinza);
+    width: 100%;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header-Txt {
+    margin-left: 62px;
+    color: #ffff;
+}
+
+#Header h1 {
+    color: #ffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-branco-1);
+    width: 100%;
+    height: 229px;
+}
+
+.data {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;    
+}
+
+.container img {
+    height: auto;
+    width: 250px;
+}
+
+#historia {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-branco-2);
+    display: flex;
+}
+
+#txt-Historia {
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    height: auto;
+    margin: auto 5px;
+}
+
+#txt-Historia h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 27.6px;
+}
+
+#txt-Historia h2 {
+        margin-top: 45px;
+        margin-left: 77px;
+        margin-right: 40px;
+        font-weight: 500;
+        font-size: 17px;
+}
+
+#txt-Img {
+    width: 510px;
+    margin: 40px 54px 25px 30px;
+}
+
+#formulario {
+    width: 100%;
+    height: 630px;
+    background-color: var(--color-cinza);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario h2 {
+    margin-top: 85px;
+    margin-bottom: 48px;
+    font-size: 35px;
+    color: #ffff;
+}
+
+#formulario input {
+    width: 508px;
+    height: 60px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: black 1px solid;
+    font-size: 25px;
+}
+
+#input-1 {
+    margin-bottom: 60px;
+}
+
+#button {
+    border-radius: 10px;
+    background-color: var(--color-amarelo);
+    width: 286px;
+    height: 74px;
+    margin-top: 88px;
+    color: var(--color-branco-1);
+    font-weight: 700;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
